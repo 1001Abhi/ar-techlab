@@ -22,10 +22,10 @@ export const metadata: Metadata = {
 
 
 const navLinks = [
-  { id: 1, url: "/", newTab: false, text: "Home" },
-  { id: 2, url: "/about", newTab: false, text: "About" },
-  { id: 3, url: "/services", newTab: false, text: "Services" },
-  { id: 4, url: "/contact", newTab: false, text: "Contact" },
+  { id: 1, url: "#home", newTab: false, text: "Home" },
+  { id: 2, url: "#features", newTab: false, text: "Features" },
+  { id: 3, url: "#pricing", newTab: false, text: "Pricing" },
+  { id: 4, url: "#contact", newTab: false, text: "Contact" },
 ];
 
 export default function RootLayout({
@@ -41,7 +41,7 @@ export default function RootLayout({
         <Navbar
           links={navLinks}
           logoUrl={""}
-          logoText={"Ar-techLab"}
+          logoText={"AR-TechLab"}
         />
         <main className="bg-black text-gray-100 min-h-screen">
           {children}
