@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 export const CtaSection = () => {
     const [email, setEmail] = useState("");
 
-    const handleEmailChange = (e: any) => {
+    const handleEmailChange = (e: { target: { value: React.SetStateAction<string>; }; }) => {
         setEmail(e.target.value);
     };
 
