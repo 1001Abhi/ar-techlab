@@ -7,6 +7,8 @@ export const FeatureSection = () => {
                 <h2 className="text-5xl font-bold">Our Services</h2>
                 <p className="text-gray-400">Discover the features that set AR-TechLab apart</p>
             </div>
+
+
             <div className="container mx-auto my-6 grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="flex flex-col items-center p-4">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 text-violet-400">
