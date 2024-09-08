@@ -3,9 +3,9 @@ import React from 'react'
 
 export const MainSection = () => {
     return (
-        <section className="bg-black text-gray-100" >
+        <section className="text-gray-100" >
             <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-                <div className="flex flex-col justify-center p-6 text-center rounded-lg lg:max-w-md xl:max-w-lg lg:text-left">
+                <div className="flex flex-col justify-center p-6 text-center rounded-lg lg:max-w-md xl:max-w-2xl lg:text-left">
                     <div>
                         <h1 className="text-5xl font-bold leading-none sm:text-6xl mb-8">
                             Empowering Your Digital Presence with <span className="text-violet-400">AR-TechLab</span>

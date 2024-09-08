@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FeatureSection = () => {
     return (
-        <section className="bg-black text-gray-100 py-12 lg:py-24" id='features'>
+        <section className="text-gray-100 py-12 lg:py-24" id='features'>
             <div className="container mx-auto py-4 space-y-2 text-center">
                 <h2 className="text-5xl font-bold">Our Services</h2>
                 <p className="text-gray-400">Discover the features that set AR-TechLab apart</p>

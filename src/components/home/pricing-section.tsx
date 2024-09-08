@@ -7,7 +7,7 @@ export const PricingSection = () => {
     const [isYearly, setIsYearly] = useState(false);
 
     return (
-        <section className="py-20 bg-black text-gray-100 m:py-12 lg:py-24" id='pricing'>
+        <section className="py-20text-gray-100 m:py-12 lg:py-24" id='pricing'>
             <div className="container px-4 mx-auto">
                 <div className="max-w-2xl mx-auto mb-16 text-center">
                     <span className="font-bold tracking-wider uppercase text-violet-400">Pricing</span>
@@ -32,7 +32,7 @@ export const PricingSection = () => {
                 </div>
 
                 {/* Pricing Cards */}
-                <div className="flex w-full justify-between items-center max-w-6xl mx-auto">
+                <div className="flex w-full md:justify-between items-center max-w-6xl mx-auto flex-wrap justify-center">
                     {/* Free Plan */}
                     <div className="w-full p-4 mb-8 sm:mx-40 lg:mx-0 lg:w-1/3 lg:mb-0">
                         <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 min-h-[475px] min-w-[300px] bg-gray-800">

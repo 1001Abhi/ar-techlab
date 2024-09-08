@@ -6,42 +6,42 @@ export const TestimonialSection = () => {
         {
             name: "Ravi Kumar",
             feedback: "AR TechLab's innovative augmented reality solutions helped us completely redefine our customer engagement. Their technology allowed us to offer a virtual showroom, which significantly increased footfall and led to a 40% rise in conversions. Highly professional and forward-thinking team.",
-            image: "/images/ravi_kumar.jpg" // Replace with actual image path or URL
+            image: "/client-1.png" // Replace with actual image path or URL
         },
         {
             name: "Priya Sharma",
             feedback: "The AR training solutions developed by AR TechLab were a game changer for our company. They delivered an immersive training experience for our employees, allowing us to reduce training time by 25% and improve overall skill retention. We couldn't be more pleased with the results.",
-            image: "/images/priya_sharma.jpg" // Replace with actual image path or URL
-        },
-        {
-            name: "Anil Deshmukh",
-            feedback: "Our retail business was transformed thanks to AR TechLab’s virtual try-on technology. We saw a significant reduction in product returns and an overall increase in customer satisfaction. Their expertise in AR is unmatched in the industry.",
-            image: "/images/anil_deshmukh.jpg" // Replace with actual image path or URL
+            image: "/client-4.png" // Replace with actual image path or URL
         },
         {
             name: "Sneha Iyer",
             feedback: "Working with AR TechLab was a fantastic experience. Their AR solutions provided us with a cutting-edge way to present our products online, leading to a substantial increase in our online engagement and sales. Their team is highly professional and delivered excellent results on time.",
-            image: "/images/sneha_iyer.jpg" // Replace with actual image path or URL
-        }
+            image: "/client-3.png" // Replace with actual image path or URL
+        },
+        {
+            name: "Anil Deshmukh",
+            feedback: "Our retail business was transformed thanks to AR TechLab’s virtual try-on technology. We saw a significant reduction in product returns and an overall increase in customer satisfaction. Their expertise in AR is unmatched in the industry.",
+            image: "/client-2.png" // Replace with actual image path or URL
+        },
+
     ];
 
     return (
-        <section className="bg-black text-gray-100 py-12 lg:py-24">
+        <section className="text-gray-100 py-12 lg:py-16">
             <div className="container mx-auto text-center">
                 <h1 className="text-4xl font-semibold">What Our Clients Say</h1>
                 <p className="mt-4 text-lg">Testimonials from our valued clients</p>
             </div>
-            <div className="container mx-auto grid grid-cols-1 gap-8 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-2">
+            <div className="container mx-auto grid grid-cols-1 gap-8 mt-10 lg:gap-20 md:px-10 md:pb-10 lg:grid-cols-2">
                 {testimonials.map((testimonial, index) => (
-                    <div key={index} className="flex flex-col items-center mx-12 lg:mx-0">
+                    <div key={index} className="flex flex-col items-center mx-5 md:mx-12 lg:mx-0">
                         <div className="flex items-center">
                             <Image
                                 alt={`${testimonial.name}`}
-                                className="inline-block h-32 w-32 rounded-full"
                                 src={testimonial.image}
-                                loading="lazy"
-                                height={32}
-                                width={32}
+                                width={100}
+                                height={100}
+                                className='size-20 object-cover rounded-full'
                             />
                         </div>
                         <div className="relative text-center mt-6">
