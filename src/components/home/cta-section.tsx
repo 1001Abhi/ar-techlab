@@ -28,10 +28,10 @@ export const CtaSection = () => {
                     <div className="flex flex-col justify-center space-y-4">
                         <div className="space-y-2">
                             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
-                                Let's Create Your Dream Website
+                                Let&apos;s Create Your Dream Website
                             </h2>
                             <p className="max-w-[600px] text-gray-400 md:text-xl">
-                                Ready to take your online presence to the next level? Get in touch with us today and let's bring your vision to life.
+                                Ready to take your online presence to the next level? Get in touch with us today and let&apos;s bring your vision to life.
                             </p>
                         </div>
                         <ul className="grid gap-6 md:grid-cols-2">
@@ -61,7 +61,7 @@ export const CtaSection = () => {
                                 Contact Us
                             </h3>
                             <p className="text-gray-400">
-                                Fill out the form below and we'll get back to you as soon as possible.
+                                Fill out the form below and we&apos;ll get back to you as soon as possible.
                             </p>
                         </div>
                         <form onSubmit={handleSubmit} className="space-y-4">
